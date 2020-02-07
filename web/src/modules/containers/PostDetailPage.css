@@ -1,0 +1,110 @@
+.Post {
+    margin-bottom: 24px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 23px 0;
+    display: block;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.Post-Header {
+    padding-right: 20px;
+    display: flex;
+}
+
+.Post-User-Avatar {
+    flex-grow: 1;
+    padding-right: 24px;
+    padding-left: 24px;
+    align-items: center;
+    display: flex;
+}
+
+.ga {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: block;
+}
+
+img,
+svg {
+    vertical-align: middle;
+}
+
+.gb {
+    margin-left: 12px;
+    display: block;
+    width: 100%;
+}
+
+.Post-Content {
+    padding-right: 24px;
+    padding-left: 24px;
+    display: block;
+}
+
+.ie {
+    clear: both;
+}
+.id {
+    margin-top: 32px;
+}
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+.kb {
+    margin-top: 32px;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+.Post-BG {
+    height: 100%;
+    width: 480px;
+}
+
+.Post-Image {
+    transition: opacity 400ms ease 0ms;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    position: absolute;
+    background: rgba(255, 255, 255, 1);
+}
+
+.Post-Bottom {
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+}
+
+.Post-Bottom-Count {
+    flex-direction: row;
+    flex-grow: 1;
+    margin-right: 5px;
+}
+
+.player-wrapper {
+    /* position: relative; */
+    /* 720 / 1280 = 0.5625 */
+    /* padding-top: 56.25%; */
+    width: 480px;
+    height: 270px;
+    overflow: hidden;
+}
+
+.react-player {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
