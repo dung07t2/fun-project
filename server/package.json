@@ -20,7 +20,7 @@
       "mongodb": "^3.5.2",
       "pg": "^7.17.1",
       "reflect-metadata": "^0.1.13",
-      "typeorm": "0.2.22"
+      "typeorm": "0.2.25"
    },
    "scripts": {
       "start": "ts-node src/index.ts"
